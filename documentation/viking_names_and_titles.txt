@@ -1,0 +1,47 @@
+#NAMES:
+"Olav","Harald","Sigurd","Rane","Ottar", "Sote","Sigvat","Yngve","Torkjell","Svein","Ulvkjell","Gisle","Vilhjalm",
+"Gunnvald","Geirfinn","Rikard","Edmund","Edvard","Edvig","Edgeir","Rolv","Eirik","Einar","Håkon","Erling",
+"Tryggve","Ragnvald","Aslak","Skjalg","Lodin","Tore","Torberg","Knut","Tord","Halvdan","Guttorm","Rørek","Ring",
+"Gudrød","Bård","Karl","Berse","Kalv","Torgeir","Arnljot","Avrafaste","Torfinn","Gissur","Hovgarda","Dag",
+"Arnfinn","Armod","Bjørn","Torstein","Finn","Erlend","Hårek","Kimbe","Grim","Torgil","Alfrin","Torarin",
+"Grimkjell","Magnus","Jarisleiv","Torgrim","Grimnir","Bruse","Glum","Øyvind","Grjotgard","Gamle","Ossur","Gandalf",
+"Hysing","Helsing","Haki","Snorre","Arnor","Tjodolv"
+
+#APPELLATIONS:
+Bloodaxe (Blodøks)
+the Red (Raude)
+the Black (Svarte)
+Niceguy (Snilling)
+Dog, Hound (Hund)
+the Holy (Hellige)
+the Big (Digre)
+the Mouth (Munn)
+Goldeneyes (Gullbrå)
+Bard, Earlsbard (Jarlaskald)
+Pilgrim, Crusader (Jorsalfare, i.e. "Jerusalem [way]farer")
+Bowbreaker (Tambarskjelve), Tambourine-Shaker if you want to be silly
+the Good (den gode)
+Fairhair (Hårfagre)
+Greycloak (Gråfell)
+Barefoot (Berrføtt)
+the Hunchback, Crookback (Krokrygg)
+Broad-Shouldered (Herdebrei)
+Lawmender (Lagabøte)
+Harsh Boss, Ironhand (Hardråde)
+Skull (Bjodaskalle)
+the Old (Gamle)
+Hairy-Breeches (Lodbrok)
+Ironside (Jarnsida)
+the Boneless (Beinlause)
+Snake-Eye (orm i auga)
+Forkbeard (Tveskjegg)
+Bluetooth (Blåtann)
+Gold (Gull-Harald)
+Tiller, Rudder (Spake)
+Crow (Kråke)
+
+"Bloodaxe", "the Red", "the Black", "Niceguy", "Hound", "the Holy", "the Big",
+"the Mouth", "Goldeneyes", "Bard", "Pilgrim", "Crusader", "Bowbreaker", "Tambourine-Shaker",
+"the Good", "Fairhair", "Greycloak", "Barefoot", "the Hunchback", "Broad-Shouldered",
+"Lawmender", "Ironhand", "Skull", "Hairy-Breeches", "Ironside", "the Boneless", "Snake-Eye",
+"Forkbeard", "Bluetooth", "Gold", "Tiller", "Crow"
