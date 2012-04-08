@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Viking Trail" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Viking Trail" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="`sdl-config --cflags`" />
+		</Compiler>
+		<Linker>
+			<Add option="`sdl-config --libs`" />
+			<Add library="SDL" />
+			<Add library="SDL_ttf" />
+			<Add library="SDL_mixer" />
+			<Add library="SDL_image" />
+		</Linker>
+		<Unit filename="Viking Trail.cbp" />
+		<Unit filename="Viking Trail.depend" />
+		<Unit filename="Viking Trail.layout" />
+		<Unit filename="becalmed.bmp" />
+		<Unit filename="blank.bmp" />
+		<Unit filename="buy_stuff.cpp" />
+		<Unit filename="calculate_score.cpp" />
+		<Unit filename="cb.bmp" />
+		<Unit filename="choose_class.cpp" />
+		<Unit filename="class.bmp" />
+		<Unit filename="clean_up.cpp" />
+		<Unit filename="clear_screen.cpp" />
+		<Unit filename="endscreen.bmp" />
+		<Unit filename="equipment.h" />
+		<Unit filename="game_over.cpp" />
+		<Unit filename="georgia.ttf" />
+		<Unit filename="globals.h" />
+		<Unit filename="header.h" />
+		<Unit filename="high_seas.cpp" />
+		<Unit filename="high_seas_1.bmp" />
+		<Unit filename="high_seas_2.bmp" />
+		<Unit filename="landmark1.bmp" />
+		<Unit filename="landmark2.bmp" />
+		<Unit filename="landmark3.bmp" />
+		<Unit filename="load_media.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main_menu.cpp" />
+		<Unit filename="mainmenu.bmp" />
+		<Unit filename="menu.wav" />
+		<Unit filename="name_party_members.cpp" />
+		<Unit filename="notes.txt" />
+		<Unit filename="opening.wav" />
+		<Unit filename="partymember.h" />
+		<Unit filename="print_full_picture.cpp" />
+		<Unit filename="put_text_at.cpp" />
+		<Unit filename="random_event.cpp" />
+		<Unit filename="read_history.cpp" />
+		<Unit filename="show_intro.cpp" />
+		<Unit filename="titlescreen.bmp" />
+		<Unit filename="vinland.bmp" />
+		<Unit filename="vinland_reached.cpp" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
