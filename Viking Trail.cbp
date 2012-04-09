@@ -38,6 +38,7 @@
 		<Unit filename="buy_stuff.cpp" />
 		<Unit filename="calculate_score.cpp" />
 		<Unit filename="cb.bmp" />
+		<Unit filename="change_health.cpp" />
 		<Unit filename="choose_class.cpp" />
 		<Unit filename="class.bmp" />
 		<Unit filename="clean_up.cpp" />
@@ -47,6 +48,7 @@
 		<Unit filename="game_over.cpp" />
 		<Unit filename="georgia.ttf" />
 		<Unit filename="globals.h" />
+		<Unit filename="go_fishing_or_whaling.cpp" />
 		<Unit filename="header.h" />
 		<Unit filename="high_seas.cpp" />
 		<Unit filename="high_seas_1.bmp" />
@@ -54,6 +56,7 @@
 		<Unit filename="landmark1.bmp" />
 		<Unit filename="landmark2.bmp" />
 		<Unit filename="landmark3.bmp" />
+		<Unit filename="landmark_reached.cpp" />
 		<Unit filename="load_media.cpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="main_menu.cpp" />
