@@ -35,7 +35,7 @@ int vinland_reached() {
         sprintf(temp,"Your score: %d.",SCORE);
         
         print_full_picture(BITMAPS[IMG_VINLAND_REACHED]);
-        put_text_at(-1,150,temp);
+        put_text_at(-1,300,temp);
         
         
         SDL_Flip(MAIN_SCREEN);

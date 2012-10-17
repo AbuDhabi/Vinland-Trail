@@ -125,8 +125,8 @@ int high_seas() {
             }
             if (DISTANCE > 6000) { 
                 return 7; // reached vinland, fuckers!
-            } else if (DISTANCE > 5000 && LANDMARKS == 2) { LANDMARKS++; return 13; } // greenland
-            else if (DISTANCE > 3000 && LANDMARKS == 1) { LANDMARKS++; return 12; } // iceland
+            } else if (DISTANCE > 5000 && LANDMARKS == 2) { LANDMARKS++; return 11; } // greenland
+            else if (DISTANCE > 3000 && LANDMARKS == 1) { LANDMARKS++; return 11; } // iceland
             else if (DISTANCE > 1000 && LANDMARKS == 0) { LANDMARKS++; return 11; } // bergen
             
         }// else { // if paused

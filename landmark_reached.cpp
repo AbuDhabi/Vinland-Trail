@@ -20,9 +20,20 @@ int landmark_reached(int which) {
                 // check for keypresses
             case SDL_KEYDOWN:
                 {
-                    // exit if ANY PRESSED
-                    done = true;
-                    break;
+                    // exit if ENTER
+                    if (event.key.keysym.sym == SDLK_RETURN) {
+                        done = true;
+                        break;
+                    }
+                    if (event.key.keysym.sym == SDLK_p) {
+                        return 14; // pillage
+                    }
+                    if (event.key.keysym.sym == SDLK_b) {
+                        return 15; // buy
+                    }
+                    if (event.key.keysym.sym == SDLK_r) {
+                        return 16; // repair
+                    }
                 }
             } // end switch
         } // end of message processing
@@ -37,6 +48,11 @@ int landmark_reached(int which) {
             print_full_picture(BITMAPS[IMG_GREENLAND]);
             put_text_at(-1,400,"Welcome to Greenland, which isn't green at all!");
         }
+        put_text_at(20,100,"What shall we do here?");
+        put_text_at(20,120,"P - Pillage");
+        put_text_at(20,140,"R - Repair boat");
+        put_text_at(20,160,"B - Buy stuff");
+        put_text_at(20,180,"ENTER - Leave");
         
         SDL_Flip(MAIN_SCREEN);
         SDL_Delay(100);

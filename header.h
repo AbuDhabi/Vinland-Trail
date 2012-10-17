@@ -21,6 +21,9 @@
 #define IMG_GREENLAND 16
 #define IMG_WHALING 17
 #define IMG_FISHING 18
+#define IMG_PILLAGE 19
+#define IMG_BUYING 20
+#define IMG_REPAIR 21
 
 //sound enums
 #define SND_OPENING 0
@@ -75,5 +78,9 @@ int calculate_score();
 int go_fishing_or_whaling(int choice);
 int change_health(int partymember, int change);
 int landmark_reached(int which);
+int buy_at_landmark();
+int pillage_city();
+int repair_boat();
+int how_many_alive();
 
 #endif // HEADER_H_INCLUDED

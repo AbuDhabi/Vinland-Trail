@@ -15,7 +15,8 @@ bool END_PROGRAM = false;
 int state =  0; // -1 - exit, 0 - go to main menu, 1 - start new game/naming, 2 - read history, 3 - choose class,
                // 4 - purchase stuff/new game, 5 - the actual game screen, finally! 6 - game over
                // 7 - vinland reached!, 8 - random event, 9 - whaling, 10 - go fishing
-               // 11 - bergen, 12 - reykyavik, 13 - greenland
+               // 11 - bergen, 12 - reykyavik, X1X3X X-X XgXrXeXeXnXlXaXnXdX, 
+               // 14 - pillage city, 15 - buy in city, 16 - repair in city
 int DISTANCE = 0; // distance traveled
 int DAYS = 0; // total days taken
 int SCORE = 0;
@@ -66,7 +67,7 @@ int main ( int argc, char** argv )
         printf("Unable to set 640x480 video: %s\n", SDL_GetError());
         return 1;
     }
-    SDL_WM_SetCaption("Viking Trail","Viking Trail");
+    SDL_WM_SetCaption("Vinland Trail","Vinland Trail");
     
     
     // LOAD MEDIA
@@ -91,9 +92,12 @@ int main ( int argc, char** argv )
         if (state == 8) { state = random_event(); } // some random event!
         if (state == 9) { state = go_fishing_or_whaling(1); } // whaling
         if (state == 10) { state = go_fishing_or_whaling(2); } // fishing
-        if (state == 11) { state = landmark_reached(1); } // bergen
-        if (state == 12) { state = landmark_reached(2); } // reykyavik
-        if (state == 13) { state = landmark_reached(3); } // greenland
+        if (state == 11) { state = landmark_reached(LANDMARKS); } // bergen
+        //if (state == 12) { state = landmark_reached(LANDMARKS); } // reykyavik
+        //if (state == 13) { state = landmark_reached(LANDMARKS); } // greenland
+        if (state == 14) { state = pillage_city(); } // pillage city
+        if (state == 15) { state = buy_at_landmark(); } // buy stuff on the way
+        if (state == 16) { state = repair_boat(); } // repair boat at landmark
     }
     
 

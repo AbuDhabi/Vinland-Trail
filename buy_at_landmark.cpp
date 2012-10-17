@@ -1,11 +1,8 @@
 #include "header.h"
 #include "globals.h"
 
-int buy_stuff() {
-    INVENTORY = {0,0,0,100,500};
-    if (CLASS == MERCHANT) INVENTORY.money = 1000; // i come from richistan
-
-    // message processing loop
+int buy_at_landmark() {
+    
     bool done = false;
     while (!done) {
         
@@ -17,14 +14,17 @@ int buy_stuff() {
             {
                 // exit if the window is closed
             case SDL_QUIT:
-                //done = true;
-                return -1;
+                done = true;
                 break;
 
                 // check for keypresses
             case SDL_KEYDOWN:
                 {
-                    // exit if ANY PRESSED
+                    // exit if ENTER
+                    if (event.key.keysym.sym == SDLK_RETURN) {
+                        done = true;
+                        break;
+                    }
                     if (event.key.keysym.sym == SDLK_1) {
                         if (INVENTORY.money >= 10) {
                             INVENTORY.axes++;
@@ -48,24 +48,13 @@ int buy_stuff() {
                             INVENTORY.money -= 50;
                         }
                     }
-                    if (event.key.keysym.sym == SDLK_RETURN) {
-                        //Mix_HaltChannel(-1);
-                        return 5; // go to GAME
-                        //done = true;
-                    }
-                    if (event.key.keysym.sym == SDLK_ESCAPE) {
-                        //Mix_HaltChannel(-1);
-                        return 3; // go to class selection
-                        //done = true;
-                    }
-                    break;
                 }
             } // end switch
         } // end of message processing
         
-        print_full_picture(BITMAPS[IMG_INITIAL_BUYING]);
+        print_full_picture(BITMAPS[IMG_BUYING]);
         put_text_at(-1,48,"BUY STUFF");
-        put_text_at(-1,400, "PRESS NUMBERS, RECEIVE BACON, ENTER BEGINS THE GAME");
+        put_text_at(-1,400, "PRESS NUMBERS, RECEIVE BACON, ENTER GOES BACK TO TOWN");
         
         char stuff[3][80] = {"1 - AXES, 10kr: ","2 - FOOD, 1kr: ","3 - SETTLERS, 50kr: "};
         char temp[80], temp2[80]; int number;
@@ -83,10 +72,13 @@ int buy_stuff() {
         sprintf(temp3,"MONEY LEFT: %dkr",INVENTORY.money);
         put_text_at(-1,340,temp3);
         
+        
+        
         SDL_Flip(MAIN_SCREEN);
         SDL_Delay(100);
-  
     }
     
-    return 0;
+
+
+    return 11; // go back to landmark
 }

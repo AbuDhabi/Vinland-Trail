@@ -30,7 +30,7 @@ bool show_intro() {
         } // end of message processing
 
         print_full_picture(BITMAPS[IMG_INTRO]);
-        put_text_at(-1,436,"PRESS ANY KEY TO CONTINUE");  
+        put_text_at(-1,300,"PRESS ANY KEY TO CONTINUE");  
         
         SDL_Flip(MAIN_SCREEN);
         SDL_Delay(100);

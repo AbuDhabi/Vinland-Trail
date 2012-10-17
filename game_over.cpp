@@ -32,7 +32,7 @@ int game_over() {
         char temp[80];
         SCORE = calculate_score() / 2; // because you hath failed
         sprintf(temp,"SCORE: %d",SCORE);
-        put_text_at(-1,400,temp);
+        put_text_at(-1,360,temp);
         
         SDL_Flip(MAIN_SCREEN);
         SDL_Delay(100);

@@ -58,12 +58,14 @@ int go_fishing_or_whaling(int choice) {
         
         if (choice == 1) {
             print_full_picture(BITMAPS[IMG_WHALING]);
-            put_text_at(-1,400,"You go whaling.");
+            put_text_at(-1,410,"You go whaling.");
+            put_text_at(-1,430,temp);
         } else if (choice == 2) {
             print_full_picture(BITMAPS[IMG_FISHING]);
-            put_text_at(-1,400,"You go fishing.");
+            put_text_at(-1,20,"You go fishing.");
+            put_text_at(-1,40,temp);
         }
-        put_text_at(-1,420,temp);
+        
         
         
         

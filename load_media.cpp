@@ -54,6 +54,9 @@ bool load_media() {
     BITMAPS[IMG_GREENLAND] = load_bitmap("landmark3.png");
     BITMAPS[IMG_WHALING] = load_bitmap("whaling.png");
     BITMAPS[IMG_FISHING] = load_bitmap("fishing.png");
+    BITMAPS[IMG_PILLAGE] = load_bitmap("pillage.png");
+    BITMAPS[IMG_BUYING] = load_bitmap("blank.png");
+    BITMAPS[IMG_REPAIR] = load_bitmap("blank.png");
     
     //load sounds
     SOUNDS[SND_MAIN_MENU] = load_sound("menu.ogg");

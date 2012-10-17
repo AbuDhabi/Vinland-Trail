@@ -46,11 +46,12 @@ int random_event() {
         
         if (random_event == 1) { // becalmed
             print_full_picture(BITMAPS[IMG_BECALMED]); 
-            sprintf(temp,"Lose %d days.",number);
+            sprintf(temp,"Becalmed. Lose %d days.",number);
             put_text_at(-1,400,temp);
             
         } else if (random_event == 2) { //scurvy
             print_full_picture(BITMAPS[IMG_SCURVY]); 
+            put_text_at(-1,40,"Scurvy!");
         } else if (random_event == 3) {
             print_full_picture(BITMAPS[IMG_BOAT_DAMAGED]); 
             sprintf(temp,"Boat takes %d%% damage.",number);

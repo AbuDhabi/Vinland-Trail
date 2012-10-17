@@ -35,6 +35,7 @@
 		<Unit filename="Viking Trail.layout" />
 		<Unit filename="becalmed.bmp" />
 		<Unit filename="blank.bmp" />
+		<Unit filename="buy_at_landmark.cpp" />
 		<Unit filename="buy_stuff.cpp" />
 		<Unit filename="calculate_score.cpp" />
 		<Unit filename="cb.bmp" />
@@ -53,6 +54,7 @@
 		<Unit filename="high_seas.cpp" />
 		<Unit filename="high_seas_1.bmp" />
 		<Unit filename="high_seas_2.bmp" />
+		<Unit filename="how_many_alive.cpp" />
 		<Unit filename="landmark1.bmp" />
 		<Unit filename="landmark2.bmp" />
 		<Unit filename="landmark3.bmp" />
@@ -66,10 +68,12 @@
 		<Unit filename="notes.txt" />
 		<Unit filename="opening.wav" />
 		<Unit filename="partymember.h" />
+		<Unit filename="pillage_city.cpp" />
 		<Unit filename="print_full_picture.cpp" />
 		<Unit filename="put_text_at.cpp" />
 		<Unit filename="random_event.cpp" />
 		<Unit filename="read_history.cpp" />
+		<Unit filename="repair_boat.cpp" />
 		<Unit filename="show_intro.cpp" />
 		<Unit filename="titlescreen.bmp" />
 		<Unit filename="vinland.bmp" />
