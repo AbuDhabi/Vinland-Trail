@@ -119,6 +119,8 @@ int pillage_city() {
             }
             foodstolen = foodstolen *4 + rand()%20;
             cashstolen = cashstolen *3 + rand()%10;
+            INVENTORY.food += foodstolen;
+            INVENTORY.money += cashstolen;
         }
         char temp[80];
         print_full_picture(BITMAPS[IMG_PILLAGE]);

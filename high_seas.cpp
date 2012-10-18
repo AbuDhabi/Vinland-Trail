@@ -41,15 +41,19 @@ int high_seas() {
                         if (RATIONS > 3) RATIONS = 0;
                         break;
                     }
-                    if (event.key.keysym.sym == SDLK_w) {
-                        // whaling
-                        return 9;
-                        //break;
-                    }
-                    if (event.key.keysym.sym == SDLK_f) {
-                        // fishing
-                        return 10;
-                        //break;
+                    if (!ALREADY_FISHEDORWHALED) {
+                        if (event.key.keysym.sym == SDLK_w) {
+                            // whaling
+                            ALREADY_FISHEDORWHALED = true;
+                            return 9;
+                            //break;
+                        }
+                        if (event.key.keysym.sym == SDLK_f) {
+                            // fishing
+                            ALREADY_FISHEDORWHALED = true;
+                            return 10;
+                            //break;
+                        }
                     }
                     
                 }
@@ -119,6 +123,7 @@ int high_seas() {
                 INVENTORY.food -= INVENTORY.settlers;
             } // TODO: edge cases, such as eating when dead, or eating last crumbs
             DAYS++;
+            ALREADY_FISHEDORWHALED = false;
             
             if (rand()%10 == 0) { 
                 return 8; // random event
@@ -144,10 +149,12 @@ int high_seas() {
         put_text_at(430,300,temp);
         sprintf(temp,"R - SET RATIONS: %s.",rations);
         put_text_at(430,320,temp);
-        sprintf(temp,"W - GO WHALING");
-        put_text_at(430,360,temp);
-        sprintf(temp,"F - GO FISHING");
-        put_text_at(430,380,temp);
+        if (!ALREADY_FISHEDORWHALED) {
+            sprintf(temp,"W - GO WHALING");
+            put_text_at(430,360,temp);
+            sprintf(temp,"F - GO FISHING");
+            put_text_at(430,380,temp);
+        }
          
         //display stuff
         sprintf(temp,"AXES: %d",INVENTORY.axes);

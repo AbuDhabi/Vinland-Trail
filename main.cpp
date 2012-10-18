@@ -24,6 +24,7 @@ int PACE = 0;
 int RATIONS = 0;
 bool PAUSED = true;
 int LANDMARKS = 0; // which landmarks were already reached
+bool ALREADY_FISHEDORWHALED = false;
 
 int main ( int argc, char** argv )
 {
