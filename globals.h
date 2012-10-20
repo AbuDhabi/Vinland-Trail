@@ -22,5 +22,6 @@ extern int PACE;
 extern int RATIONS;
 extern bool PAUSED;
 extern int LANDMARKS;
+extern bool ALREADY_FISHEDORWHALED;
 
 #endif // GLOBALS_H_INCLUDED

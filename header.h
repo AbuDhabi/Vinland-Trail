@@ -24,6 +24,7 @@
 #define IMG_PILLAGE 19
 #define IMG_BUYING 20
 #define IMG_REPAIR 21
+#define IMG_BEICED 22
 
 //sound enums
 #define SND_OPENING 0

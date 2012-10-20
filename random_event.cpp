@@ -5,6 +5,7 @@ int random_event() {
     int return_code = 5; // by default, back to high seas
     char temp[80]; int number;
     int random_event = rand()%3+1; 
+    if (DAYS%365 >= 182 && DAYS%365 <= 364) random_event++;
     
     if (random_event == 1) { // becalmed
         number = rand()%6+1;
@@ -17,6 +18,9 @@ int random_event() {
     } else if (random_event == 3) { // BOAT FUCKING DAMAGED
         number = rand()%20+1;
         INVENTORY.boat_status -= number;
+    } else if (random_event == 4) { // ice
+        number = rand()%30+1;
+        DAYS = DAYS + number;
     }
     
     bool done = false;
@@ -48,7 +52,6 @@ int random_event() {
             print_full_picture(BITMAPS[IMG_BECALMED]); 
             sprintf(temp,"Becalmed. Lose %d days.",number);
             put_text_at(-1,400,temp);
-            
         } else if (random_event == 2) { //scurvy
             print_full_picture(BITMAPS[IMG_SCURVY]); 
             put_text_at(-1,40,"Scurvy!");
@@ -56,6 +59,10 @@ int random_event() {
             print_full_picture(BITMAPS[IMG_BOAT_DAMAGED]); 
             sprintf(temp,"Boat takes %d%% damage.",number);
             put_text_at(-1,-1,temp);
+        } else if (random_event == 4) { // beiced
+            print_full_picture(BITMAPS[IMG_BEICED]); 
+            sprintf(temp,"Beiced. Lose %d days.",number);
+            put_text_at(-1,400,temp);
         }
         
         SDL_Flip(MAIN_SCREEN);

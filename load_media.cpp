@@ -57,6 +57,7 @@ bool load_media() {
     BITMAPS[IMG_PILLAGE] = load_bitmap("pillage.png");
     BITMAPS[IMG_BUYING] = load_bitmap("blank.png");
     BITMAPS[IMG_REPAIR] = load_bitmap("blank.png");
+    BITMAPS[IMG_BEICED] = load_bitmap("beiced.png");
     
     //load sounds
     SOUNDS[SND_MAIN_MENU] = load_sound("menu.ogg");
