@@ -1,0 +1,323 @@
+# depslib dependency file v1.0
+1350488580 source:/home/jpkociak/programming/Vinland Trail/buy_at_landmark.cpp
+	"header.h"
+	"globals.h"
+
+1350745355 /home/jpkociak/programming/Vinland Trail/header.h
+	<cstdlib>
+	<stdlib.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_image.h>
+	<SDL.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<cstring>
+	<time.h>
+	"partymember.h"
+	"equipment.h"
+
+1286726393 /usr/include/SDL/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1286726393 /usr/include/SDL/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1286726393 /usr/include/SDL/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1286726393 /usr/include/SDL/SDL_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1286726393 /usr/include/SDL/SDL_platform.h
+
+1286726393 /usr/include/SDL/begin_code.h
+
+1286726393 /usr/include/SDL/close_code.h
+
+1286726393 /usr/include/SDL/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1286726393 /usr/include/SDL/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1286726393 /usr/include/SDL/SDL_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1286726393 /usr/include/SDL/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1286726393 /usr/include/SDL/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1286726393 /usr/include/SDL/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1286726393 /usr/include/SDL/SDL_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1286726393 /usr/include/SDL/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1286726393 /usr/include/SDL/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1286726393 /usr/include/SDL/SDL_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1286726393 /usr/include/SDL/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1286726393 /usr/include/SDL/SDL_keysym.h
+
+1286726393 /usr/include/SDL/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1286726393 /usr/include/SDL/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1286726393 /usr/include/SDL/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1286726393 /usr/include/SDL/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1286726393 /usr/include/SDL/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1286726393 /usr/include/SDL/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1286726393 /usr/include/SDL/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1292058855 /usr/include/SDL/SDL_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1286726393 /usr/include/SDL/SDL_types.h
+	"SDL_stdinc.h"
+
+1185194442 /usr/include/SDL/SDL_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1283649534 /usr/include/SDL/SDL_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1331571662 /home/jpkociak/programming/Vinland Trail/partymember.h
+
+1331571638 /home/jpkociak/programming/Vinland Trail/equipment.h
+
+1350567078 /home/jpkociak/programming/Vinland Trail/globals.h
+
+1350488590 source:/home/jpkociak/programming/Vinland Trail/buy_stuff.cpp
+	"header.h"
+	"globals.h"
+
+1350745856 source:/home/jpkociak/programming/Vinland Trail/calculate_score.cpp
+	"header.h"
+	"globals.h"
+
+1333910752 source:/home/jpkociak/programming/Vinland Trail/change_health.cpp
+	"header.h"
+	"globals.h"
+
+1331639720 source:/home/jpkociak/programming/Vinland Trail/choose_class.cpp
+	"header.h"
+	"globals.h"
+
+1331641670 source:/home/jpkociak/programming/Vinland Trail/clean_up.cpp
+	"header.h"
+	"globals.h"
+
+1331584859 source:/home/jpkociak/programming/Vinland Trail/clear_screen.cpp
+	"header.h"
+	"globals.h"
+
+1350495698 source:/home/jpkociak/programming/Vinland Trail/game_over.cpp
+	"header.h"
+	"globals.h"
+
+1350483479 source:/home/jpkociak/programming/Vinland Trail/go_fishing_or_whaling.cpp
+	"header.h"
+	"globals.h"
+
+1350667319 source:/home/jpkociak/programming/Vinland Trail/high_seas.cpp
+	"header.h"
+	"globals.h"
+
+1350494214 source:/home/jpkociak/programming/Vinland Trail/how_many_alive.cpp
+	"header.h"
+	"globals.h"
+
+1350484639 source:/home/jpkociak/programming/Vinland Trail/landmark_reached.cpp
+	"header.h"
+	"globals.h"
+
+1350803663 source:/home/jpkociak/programming/Vinland Trail/load_media.cpp
+	"header.h"
+	"globals.h"
+
+1350567062 source:/home/jpkociak/programming/Vinland Trail/main.cpp
+	"header.h"
+	"globals.h"
+
+1333820083 source:/home/jpkociak/programming/Vinland Trail/main_menu.cpp
+	"header.h"
+	"globals.h"
+
+1331747003 source:/home/jpkociak/programming/Vinland Trail/name_party_members.cpp
+	"header.h"
+	"globals.h"
+
+1350570231 source:/home/jpkociak/programming/Vinland Trail/pillage_city.cpp
+	"header.h"
+	"globals.h"
+
+1331579183 source:/home/jpkociak/programming/Vinland Trail/print_full_picture.cpp
+	"header.h"
+	"globals.h"
+
+1331579171 source:/home/jpkociak/programming/Vinland Trail/put_text_at.cpp
+	"header.h"
+	"globals.h"
+
+1350745324 source:/home/jpkociak/programming/Vinland Trail/random_event.cpp
+	"header.h"
+	"globals.h"
+
+1350824664 source:/home/jpkociak/programming/Vinland Trail/read_history.cpp
+	"header.h"
+	"globals.h"
+
+1350487603 source:/home/jpkociak/programming/Vinland Trail/repair_boat.cpp
+	"header.h"
+	"globals.h"
+
+1350482998 source:/home/jpkociak/programming/Vinland Trail/show_intro.cpp
+	"header.h"
+	"globals.h"
+
+1350483313 source:/home/jpkociak/programming/Vinland Trail/vinland_reached.cpp
+	"header.h"
+	"globals.h"
+
