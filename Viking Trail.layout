@@ -7,7 +7,7 @@
 	<File name="buy_stuff.cpp" open="0" top="0" tabpos="9">
 		<Cursor position="2991" topLine="68" />
 	</File>
-	<File name="calculate_score.cpp" open="1" top="1" tabpos="8">
+	<File name="calculate_score.cpp" open="1" top="0" tabpos="8">
 		<Cursor position="288" topLine="0" />
 	</File>
 	<File name="choose_class.cpp" open="0" top="0" tabpos="15">
@@ -40,7 +40,7 @@
 	<File name="landmark_reached.cpp" open="0" top="0" tabpos="23">
 		<Cursor position="72" topLine="33" />
 	</File>
-	<File name="load_media.cpp" open="1" top="0" tabpos="6">
+	<File name="load_media.cpp" open="1" top="1" tabpos="6">
 		<Cursor position="1071" topLine="29" />
 	</File>
 	<File name="main.cpp" open="1" top="0" tabpos="1">
