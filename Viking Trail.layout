@@ -40,7 +40,7 @@
 	<File name="landmark_reached.cpp" open="0" top="0" tabpos="23">
 		<Cursor position="72" topLine="33" />
 	</File>
-	<File name="load_media.cpp" open="1" top="1" tabpos="6">
+	<File name="load_media.cpp" open="1" top="0" tabpos="6">
 		<Cursor position="1071" topLine="29" />
 	</File>
 	<File name="main.cpp" open="1" top="0" tabpos="1">
@@ -67,8 +67,8 @@
 	<File name="random_event.cpp" open="1" top="0" tabpos="5">
 		<Cursor position="738" topLine="33" />
 	</File>
-	<File name="read_history.cpp" open="0" top="0" tabpos="17">
-		<Cursor position="1375" topLine="11" />
+	<File name="read_history.cpp" open="1" top="1" tabpos="11">
+		<Cursor position="2723" topLine="35" />
 	</File>
 	<File name="repair_boat.cpp" open="0" top="0" tabpos="26">
 		<Cursor position="0" topLine="14" />
