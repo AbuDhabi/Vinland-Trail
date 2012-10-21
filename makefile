@@ -59,7 +59,7 @@ clean :
 # -----------------------------------------
 # Release_target
 
-Release_target.BIN = bin/VinlandTrail.exe
+Release_target.BIN = VinlandTrail
 Release_target.OBJ = buy_at_landmark.o buy_stuff.o calculate_score.o change_health.o choose_class.o clean_up.o clear_screen.o game_over.o go_fishing_or_whaling.o high_seas.o how_many_alive.o landmark_reached.o load_media.o main.o main_menu.o name_party_members.o pillage_city.o print_full_picture.o put_text_at.o random_event.o read_history.o repair_boat.o show_intro.o vinland_reached.o 
 DEP_FILES += buy_at_landmark.d buy_stuff.d calculate_score.d change_health.d choose_class.d clean_up.d clear_screen.d game_over.d go_fishing_or_whaling.d high_seas.d how_many_alive.d landmark_reached.d load_media.d main.d main_menu.d name_party_members.d pillage_city.d print_full_picture.d put_text_at.d random_event.d read_history.d repair_boat.d show_intro.d vinland_reached.d 
 clean.OBJ += $(Release_target.BIN) $(Release_target.OBJ)
