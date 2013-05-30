@@ -3,7 +3,7 @@ Vinland Trail
 The game where you are Leif Eriksson and everyone dies of scurvy.
 
 Installation:
-Just download the contents of the appropriate binary folder, and run the executable. Under Linux, you will need to have the following libraries installed:
+Just download the appropriate binary archive, uncompress, and run the executable. Under Linux, you will need to have the following libraries installed:
  - SDL 1.2
  - SDL_image
  - SDL_mixer
