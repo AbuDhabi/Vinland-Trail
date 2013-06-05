@@ -77,22 +77,28 @@ int high_seas() {
         sprintf(temp,"Days sailed: %d",DAYS);
         put_text_at(-1,450,temp);
         
+        // speed and time calculations
         int skill_mod = 0; // sailors gonna sail
         if (CLASS == SAILOR) skill_mod = 10;
         float skeleton_crew_mod = 1; // not enough crew?
         if (how_many_alive()+INVENTORY.settlers < 5) skeleton_crew_mod = (how_many_alive()+INVENTORY.settlers)/5.0;
+        // every frame, do calculations
+        if (!PAUSED) {
+            TIME++; // five tics is a day
+            SPEED = (PACE+1)*(36 + skill_mod/2 + rand()%6 - rand()%6)*skeleton_crew_mod; // measured in miles per day
+            DISTANCE = DISTANCE + SPEED/5.0; // adjust for partial update
+        }
         
+        // every fifth frame, do an update
         if (!PAUSED && frame%5 == 0) {
             
             if (PACE == 0) {
-                DISTANCE += (int)(36 + rand()%6 - rand()%6 + skill_mod/2)*(INVENTORY.boat_status/100.0)*skeleton_crew_mod;
                 for (int i=0;i<5;i++) {
                     change_health(i,1);
                 }
             } else if (PACE == 1) {
-                DISTANCE += (int)(72 + rand()%12 - rand()%12 + skill_mod)*(INVENTORY.boat_status/100.0)*skeleton_crew_mod; // from SRD, 3mi/hr
+                // NOOP
             } else if (PACE == 2) {
-                DISTANCE += (int)(108 + rand()%18 - rand()%18 + skill_mod*2)*(INVENTORY.boat_status/100.0)*skeleton_crew_mod;
                 for (int i=0;i<5;i++) {
                     change_health(i,-1);
                 }
@@ -144,6 +150,8 @@ int high_seas() {
                 }
             } 
             DAYS++;
+            
+            // cleanup
             ALREADY_FISHEDORWHALED = false;
             
             if (rand()%10 == 0) { 
@@ -219,7 +227,7 @@ int high_seas() {
         if (PAUSED) 
             SDL_Delay(100);
         else    
-            SDL_Delay(100);  // TODO: adjust this properly, so it's not too slow and not too fast
+            SDL_Delay(200);  // TODO: adjust this properly, so it's not too slow and not too fast
     }
     
     return 0;

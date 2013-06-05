@@ -8,6 +8,7 @@ Just download the appropriate binary archive, uncompress, and run the executable
  - SDL_image
  - SDL_mixer
  - SDL_ttf
+ - SDL_gfx (not required for version 1.0)
 
 Compiling from source:
 Use g++ or something vaguely compatible. Have development versions of the libraries listed above. Project files for Code::Blocks are included, if you use that IDE.

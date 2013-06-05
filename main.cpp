@@ -19,8 +19,10 @@ int state =  0; // -1 - exit, 0 - go to main menu, 1 - start new game/naming, 2 
                // 14 - pillage city, 15 - buy in city, 16 - repair in city
 int DISTANCE = 0; // distance traveled
 int DAYS = 0; // total days taken
+float TIME = 0; // a finer measure of time
 int SCORE = 0;
 int PACE = 0;
+float SPEED = 0; // measured in miles per day
 int RATIONS = 0;
 bool PAUSED = true;
 int LANDMARKS = 0; // which landmarks were already reached

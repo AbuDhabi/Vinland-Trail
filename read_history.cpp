@@ -31,10 +31,11 @@ int read_history() {
 
         
         print_full_picture(BITMAPS[IMG_HISTORY]);
+        boxRGBA(MAIN_SCREEN,100,50,560,320,0xFF,0xFF,0xFF,0xFF);
         put_text_at(-1,48,"VIKING HISTORICAL TEXT");
         put_text_at(120,80,"Vikings were North Europeans who went raiding and trading");
-        put_text_at(120,100,"across most of Europe around 800-1050. The name comes from");
-        put_text_at(120,120,"the phrase \"to go viking\", originally meaning to set");
+        put_text_at(120,100,"across most of Europe around 800-1050. The name comes");
+        put_text_at(120,120,"from the phrase \"to go viking\", originally meaning to set");
         put_text_at(120,140,"out on a journey. Vikings sailed to Greenland and built");
         put_text_at(120,160,"colonies, sailed to England and looted monasteries, sailed");
         put_text_at(120,180,"to Constantinople and became mercenaries, sailed to Russia");

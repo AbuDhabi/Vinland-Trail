@@ -16,6 +16,7 @@
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
+					<Add library="SDL_gfx" />
 				</Linker>
 			</Target>
 		</Build>
@@ -30,43 +31,26 @@
 			<Add library="SDL_mixer" />
 			<Add library="SDL_image" />
 		</Linker>
-		<Unit filename="Viking Trail.cbp" />
-		<Unit filename="Viking Trail.depend" />
-		<Unit filename="Viking Trail.layout" />
-		<Unit filename="becalmed.bmp" />
-		<Unit filename="blank.bmp" />
 		<Unit filename="buy_at_landmark.cpp" />
 		<Unit filename="buy_stuff.cpp" />
 		<Unit filename="calculate_score.cpp" />
 		<Unit filename="cb.bmp" />
 		<Unit filename="change_health.cpp" />
 		<Unit filename="choose_class.cpp" />
-		<Unit filename="class.bmp" />
 		<Unit filename="clean_up.cpp" />
 		<Unit filename="clear_screen.cpp" />
-		<Unit filename="endscreen.bmp" />
 		<Unit filename="equipment.h" />
 		<Unit filename="game_over.cpp" />
-		<Unit filename="georgia.ttf" />
 		<Unit filename="globals.h" />
 		<Unit filename="go_fishing_or_whaling.cpp" />
 		<Unit filename="header.h" />
 		<Unit filename="high_seas.cpp" />
-		<Unit filename="high_seas_1.bmp" />
-		<Unit filename="high_seas_2.bmp" />
 		<Unit filename="how_many_alive.cpp" />
-		<Unit filename="landmark1.bmp" />
-		<Unit filename="landmark2.bmp" />
-		<Unit filename="landmark3.bmp" />
 		<Unit filename="landmark_reached.cpp" />
 		<Unit filename="load_media.cpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="main_menu.cpp" />
-		<Unit filename="mainmenu.bmp" />
-		<Unit filename="menu.wav" />
 		<Unit filename="name_party_members.cpp" />
-		<Unit filename="notes.txt" />
-		<Unit filename="opening.wav" />
 		<Unit filename="partymember.h" />
 		<Unit filename="pillage_city.cpp" />
 		<Unit filename="print_full_picture.cpp" />
@@ -75,8 +59,6 @@
 		<Unit filename="read_history.cpp" />
 		<Unit filename="repair_boat.cpp" />
 		<Unit filename="show_intro.cpp" />
-		<Unit filename="titlescreen.bmp" />
-		<Unit filename="vinland.bmp" />
 		<Unit filename="vinland_reached.cpp" />
 		<Extensions>
 			<envvars />
