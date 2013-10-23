@@ -3,7 +3,9 @@
 	"header.h"
 	"globals.h"
 
-1350745355 /home/jpkociak/programming/Vinland Trail/header.h
+1370466600 "
+
+1370451041 /home/jpkociak/programming/Vinland Trail/header.h
 	<cstdlib>
 	<stdlib.h>
 	<stdlib.h>
@@ -11,16 +13,37 @@
 	<SDL/SDL_mixer.h>
 	<SDL/SDL_ttf.h>
 	<SDL/SDL_image.h>
+	<SDL/SDL_gfxPrimitives.h>
 	<SDL.h>
 	<SDL_mixer.h>
 	<SDL_ttf.h>
 	<SDL_image.h>
+	<SDL_gfxPrimitives.h>
 	<cstring>
 	<time.h>
 	"partymember.h"
 	"equipment.h"
 
-1286726393 /usr/include/SDL/SDL.h
+1377783944 .h"
+
+1374951696 /usr/include/SDL/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
 	"SDL_main.h"
 	"SDL_stdinc.h"
 	"SDL_audio.h"
@@ -39,14 +62,45 @@
 	"begin_code.h"
 	"close_code.h"
 
-1286726393 /usr/include/SDL/SDL_main.h
+1368202734 e.h"
+
+1374951696 /usr/include/SDL/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 	"begin_code.h"
 	"close_code.h"
 
-1286726393 /usr/include/SDL/SDL_stdinc.h
+1374951696 /usr/include/SDL/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
 	"SDL_config.h"
 	<sys/types.h>
 	<stdio.h>
@@ -72,17 +126,29 @@
 	<stdlib.h>
 	"close_code.h"
 
-1286726393 /usr/include/SDL/SDL_config.h
+1374951696 /usr/include/SDL/SDL_config.h
+	"SDL_platform.h"
+	<stdarg.h>
 	"SDL_platform.h"
 	<stdarg.h>
 
-1286726393 /usr/include/SDL/SDL_platform.h
+1361202901 
 
-1286726393 /usr/include/SDL/begin_code.h
+1374951696 /usr/include/SDL/SDL_platform.h
 
-1286726393 /usr/include/SDL/close_code.h
+1374951696 /usr/include/SDL/begin_code.h
 
-1286726393 /usr/include/SDL/SDL_audio.h
+1374951696 /usr/include/SDL/close_code.h
+
+1374951696 /usr/include/SDL/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_endian.h"
@@ -92,23 +158,41 @@
 	"begin_code.h"
 	"close_code.h"
 
-1286726393 /usr/include/SDL/SDL_error.h
+1374951696 /usr/include/SDL/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1286726393 /usr/include/SDL/SDL_endian.h
+1374951696 /usr/include/SDL/SDL_endian.h
 	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	<endian.h>
 	"begin_code.h"
 	"close_code.h"
 
-1286726393 /usr/include/SDL/SDL_mutex.h
+1374951696 /usr/include/SDL/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1286726393 /usr/include/SDL/SDL_thread.h
+1374951696 /usr/include/SDL/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_mutex.h"
@@ -116,24 +200,44 @@
 	<process.h>
 	"close_code.h"
 
-1286726393 /usr/include/SDL/SDL_rwops.h
+1374951696 /usr/include/SDL/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1286726393 /usr/include/SDL/SDL_cdrom.h
+1374951696 /usr/include/SDL/SDL_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1286726393 /usr/include/SDL/SDL_cpuinfo.h
+1374951696 /usr/include/SDL/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1286726393 /usr/include/SDL/SDL_events.h
+1374951696 /usr/include/SDL/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_active.h"
@@ -144,63 +248,106 @@
 	"begin_code.h"
 	"close_code.h"
 
-1286726393 /usr/include/SDL/SDL_active.h
+1374951696 /usr/include/SDL/SDL_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1286726393 /usr/include/SDL/SDL_keyboard.h
+1374951696 /usr/include/SDL/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_keysym.h"
 	"begin_code.h"
 	"close_code.h"
 
-1286726393 /usr/include/SDL/SDL_keysym.h
+1374951696 /usr/include/SDL/SDL_keysym.h
 
-1286726393 /usr/include/SDL/SDL_mouse.h
+1374951696 /usr/include/SDL/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1286726393 /usr/include/SDL/SDL_video.h
+1374951696 /usr/include/SDL/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_rwops.h"
 	"begin_code.h"
 	"close_code.h"
 
-1286726393 /usr/include/SDL/SDL_joystick.h
+1374951696 /usr/include/SDL/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1286726393 /usr/include/SDL/SDL_quit.h
+1374951696 /usr/include/SDL/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
 	"SDL_stdinc.h"
 	"SDL_error.h"
 
-1286726393 /usr/include/SDL/SDL_loadso.h
+1374951696 /usr/include/SDL/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1286726393 /usr/include/SDL/SDL_timer.h
+1374951696 /usr/include/SDL/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1286726393 /usr/include/SDL/SDL_version.h
+1374951696 /usr/include/SDL/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1292058855 /usr/include/SDL/SDL_mixer.h
+1373557065 /usr/include/SDL/SDL_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
 	"SDL_types.h"
 	"SDL_rwops.h"
 	"SDL_audio.h"
@@ -209,15 +356,25 @@
 	"begin_code.h"
 	"close_code.h"
 
-1286726393 /usr/include/SDL/SDL_types.h
+1374951696 /usr/include/SDL/SDL_types.h
+	"SDL_stdinc.h"
 	"SDL_stdinc.h"
 
-1185194442 /usr/include/SDL/SDL_ttf.h
+1340291017 c.h"
+
+1330797748 /usr/include/SDL/SDL_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
 	"SDL.h"
 	"begin_code.h"
 	"close_code.h"
 
-1283649534 /usr/include/SDL/SDL_image.h
+1368202734 /usr/include/SDL/SDL_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
 	"SDL.h"
 	"SDL_version.h"
 	"begin_code.h"
@@ -227,7 +384,7 @@
 
 1331571638 /home/jpkociak/programming/Vinland Trail/equipment.h
 
-1350567078 /home/jpkociak/programming/Vinland Trail/globals.h
+1370456328 /home/jpkociak/programming/Vinland Trail/globals.h
 
 1350488590 source:/home/jpkociak/programming/Vinland Trail/buy_stuff.cpp
 	"header.h"
@@ -241,7 +398,7 @@
 	"header.h"
 	"globals.h"
 
-1331639720 source:/home/jpkociak/programming/Vinland Trail/choose_class.cpp
+1370454734 source:/home/jpkociak/programming/Vinland Trail/choose_class.cpp
 	"header.h"
 	"globals.h"
 
@@ -277,11 +434,11 @@
 	"header.h"
 	"globals.h"
 
-1350567062 source:/home/jpkociak/programming/Vinland Trail/main.cpp
+1370456358 source:/home/jpkociak/programming/Vinland Trail/main.cpp
 	"header.h"
 	"globals.h"
 
-1333820083 source:/home/jpkociak/programming/Vinland Trail/main_menu.cpp
+1370452224 source:/home/jpkociak/programming/Vinland Trail/main_menu.cpp
 	"header.h"
 	"globals.h"
 
@@ -305,7 +462,7 @@
 	"header.h"
 	"globals.h"
 
-1350824664 source:/home/jpkociak/programming/Vinland Trail/read_history.cpp
+1370452570 source:/home/jpkociak/programming/Vinland Trail/read_history.cpp
 	"header.h"
 	"globals.h"
 
@@ -318,6 +475,264 @@
 	"globals.h"
 
 1350483313 source:/home/jpkociak/programming/Vinland Trail/vinland_reached.cpp
+	"header.h"
+	"globals.h"
+
+1361202901 /usr/include/SDL/SDL_gfxPrimitives.h
+	<math.h>
+	"SDL.h"
+	<math.h>
+	"SDL.h"
+
+1350488580 source:c:\documents and settings\administrator\my documents\dropbox\programming\vinland trail\buy_at_landmark.cpp
+	"header.h"
+	"globals.h"
+
+1377783944 c:\documents and settings\administrator\my documents\dropbox\programming\vinland trail\header.h
+	<cstdlib>
+	<stdlib.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_gfxPrimitives.h>
+	<SDL/SDL.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<SDL_gfxPrimitives.h>
+	<SDL.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<SDL_gfxPrimitives.h>
+	<cstring>
+	<time.h>
+	"partymember.h"
+	"equipment.h"
+
+1331575262 c:\documents and settings\administrator\my documents\dropbox\programming\vinland trail\partymember.h
+
+1331575238 c:\documents and settings\administrator\my documents\dropbox\programming\vinland trail\equipment.h
+
+1370456328 c:\documents and settings\administrator\my documents\dropbox\programming\vinland trail\globals.h
+
+1350488590 source:c:\documents and settings\administrator\my documents\dropbox\programming\vinland trail\buy_stuff.cpp
+	"header.h"
+	"globals.h"
+
+1350745856 source:c:\documents and settings\administrator\my documents\dropbox\programming\vinland trail\calculate_score.cpp
+	"header.h"
+	"globals.h"
+
+1333910752 source:c:\documents and settings\administrator\my documents\dropbox\programming\vinland trail\change_health.cpp
+	"header.h"
+	"globals.h"
+
+1370454734 source:c:\documents and settings\administrator\my documents\dropbox\programming\vinland trail\choose_class.cpp
+	"header.h"
+	"globals.h"
+
+1377806281 source:c:\documents and settings\administrator\my documents\dropbox\programming\vinland trail\clean_up.cpp
+	"header.h"
+	"globals.h"
+
+1331588459 source:c:\documents and settings\administrator\my documents\dropbox\programming\vinland trail\clear_screen.cpp
+	"header.h"
+	"globals.h"
+
+1350495698 source:c:\documents and settings\administrator\my documents\dropbox\programming\vinland trail\game_over.cpp
+	"header.h"
+	"globals.h"
+
+1350483479 source:c:\documents and settings\administrator\my documents\dropbox\programming\vinland trail\go_fishing_or_whaling.cpp
+	"header.h"
+	"globals.h"
+
+1350494214 source:c:\documents and settings\administrator\my documents\dropbox\programming\vinland trail\how_many_alive.cpp
+	"header.h"
+	"globals.h"
+
+1350484639 source:c:\documents and settings\administrator\my documents\dropbox\programming\vinland trail\landmark_reached.cpp
+	"header.h"
+	"globals.h"
+
+1350803663 source:c:\documents and settings\administrator\my documents\dropbox\programming\vinland trail\load_media.cpp
+	"header.h"
+	"globals.h"
+
+1370456358 source:c:\documents and settings\administrator\my documents\dropbox\programming\vinland trail\main.cpp
+	"header.h"
+	"globals.h"
+
+1370452224 source:c:\documents and settings\administrator\my documents\dropbox\programming\vinland trail\main_menu.cpp
+	"header.h"
+	"globals.h"
+
+1331750603 source:c:\documents and settings\administrator\my documents\dropbox\programming\vinland trail\name_party_members.cpp
+	"header.h"
+	"globals.h"
+
+1350570231 source:c:\documents and settings\administrator\my documents\dropbox\programming\vinland trail\pillage_city.cpp
+	"header.h"
+	"globals.h"
+
+1331582783 source:c:\documents and settings\administrator\my documents\dropbox\programming\vinland trail\print_full_picture.cpp
+	"header.h"
+	"globals.h"
+
+1378932544 source:c:\documents and settings\administrator\my documents\dropbox\programming\vinland trail\put_text_at.cpp
+	"header.h"
+	"globals.h"
+
+1350745324 source:c:\documents and settings\administrator\my documents\dropbox\programming\vinland trail\random_event.cpp
+	"header.h"
+	"globals.h"
+
+1370452570 source:c:\documents and settings\administrator\my documents\dropbox\programming\vinland trail\read_history.cpp
+	"header.h"
+	"globals.h"
+
+1350487603 source:c:\documents and settings\administrator\my documents\dropbox\programming\vinland trail\repair_boat.cpp
+	"header.h"
+	"globals.h"
+
+1350482998 source:c:\documents and settings\administrator\my documents\dropbox\programming\vinland trail\show_intro.cpp
+	"header.h"
+	"globals.h"
+
+1350483313 source:c:\documents and settings\administrator\my documents\dropbox\programming\vinland trail\vinland_reached.cpp
+	"header.h"
+	"globals.h"
+
+1370466600 source:c:\documents and settings\administrator\my documents\dropbox\programming\vinland trail\high_seas.cpp
+	"header.h"
+	"globals.h"
+
+1350488580 source:/home/jpkociak/Dropbox/programming/Vinland Trail/buy_at_landmark.cpp
+	"header.h"
+	"globals.h"
+
+1377783944 /home/jpkociak/Dropbox/programming/Vinland Trail/header.h
+	<cstdlib>
+	<stdlib.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_gfxPrimitives.h>
+	<SDL/SDL.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<SDL_gfxPrimitives.h>
+	<SDL.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<SDL_gfxPrimitives.h>
+	<cstring>
+	<time.h>
+	"partymember.h"
+	"equipment.h"
+
+1331571662 /home/jpkociak/Dropbox/programming/Vinland Trail/partymember.h
+
+1331571638 /home/jpkociak/Dropbox/programming/Vinland Trail/equipment.h
+
+1370456328 /home/jpkociak/Dropbox/programming/Vinland Trail/globals.h
+
+1350488590 source:/home/jpkociak/Dropbox/programming/Vinland Trail/buy_stuff.cpp
+	"header.h"
+	"globals.h"
+
+1350745856 source:/home/jpkociak/Dropbox/programming/Vinland Trail/calculate_score.cpp
+	"header.h"
+	"globals.h"
+
+1333910752 source:/home/jpkociak/Dropbox/programming/Vinland Trail/change_health.cpp
+	"header.h"
+	"globals.h"
+
+1370454734 source:/home/jpkociak/Dropbox/programming/Vinland Trail/choose_class.cpp
+	"header.h"
+	"globals.h"
+
+1331584859 source:/home/jpkociak/Dropbox/programming/Vinland Trail/clear_screen.cpp
+	"header.h"
+	"globals.h"
+
+1350495698 source:/home/jpkociak/Dropbox/programming/Vinland Trail/game_over.cpp
+	"header.h"
+	"globals.h"
+
+1350483479 source:/home/jpkociak/Dropbox/programming/Vinland Trail/go_fishing_or_whaling.cpp
+	"header.h"
+	"globals.h"
+
+1370466600 source:/home/jpkociak/Dropbox/programming/Vinland Trail/high_seas.cpp
+	"header.h"
+	"globals.h"
+
+1350494214 source:/home/jpkociak/Dropbox/programming/Vinland Trail/how_many_alive.cpp
+	"header.h"
+	"globals.h"
+
+1350484639 source:/home/jpkociak/Dropbox/programming/Vinland Trail/landmark_reached.cpp
+	"header.h"
+	"globals.h"
+
+1350803663 source:/home/jpkociak/Dropbox/programming/Vinland Trail/load_media.cpp
+	"header.h"
+	"globals.h"
+
+1370456358 source:/home/jpkociak/Dropbox/programming/Vinland Trail/main.cpp
+	"header.h"
+	"globals.h"
+
+1370452224 source:/home/jpkociak/Dropbox/programming/Vinland Trail/main_menu.cpp
+	"header.h"
+	"globals.h"
+
+1331747003 source:/home/jpkociak/Dropbox/programming/Vinland Trail/name_party_members.cpp
+	"header.h"
+	"globals.h"
+
+1350570231 source:/home/jpkociak/Dropbox/programming/Vinland Trail/pillage_city.cpp
+	"header.h"
+	"globals.h"
+
+1331579183 source:/home/jpkociak/Dropbox/programming/Vinland Trail/print_full_picture.cpp
+	"header.h"
+	"globals.h"
+
+1331579171 source:/home/jpkociak/Dropbox/programming/Vinland Trail/put_text_at.cpp
+	"header.h"
+	"globals.h"
+
+1350745324 source:/home/jpkociak/Dropbox/programming/Vinland Trail/random_event.cpp
+	"header.h"
+	"globals.h"
+
+1370452570 source:/home/jpkociak/Dropbox/programming/Vinland Trail/read_history.cpp
+	"header.h"
+	"globals.h"
+
+1350487603 source:/home/jpkociak/Dropbox/programming/Vinland Trail/repair_boat.cpp
+	"header.h"
+	"globals.h"
+
+1350482998 source:/home/jpkociak/Dropbox/programming/Vinland Trail/show_intro.cpp
+	"header.h"
+	"globals.h"
+
+1350483313 source:/home/jpkociak/Dropbox/programming/Vinland Trail/vinland_reached.cpp
+	"header.h"
+	"globals.h"
+
+1377806281 source:/home/jpkociak/Dropbox/programming/Vinland Trail/clean_up.cpp
 	"header.h"
 	"globals.h"
 

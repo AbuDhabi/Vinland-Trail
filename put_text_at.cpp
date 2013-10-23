@@ -16,6 +16,6 @@ int put_text_at(int x, int y, const char *text) {
         text_rect.y = y;
     SDL_BlitSurface(text_surface,0,MAIN_SCREEN,&text_rect);        
     //SDL_Flip(MAIN_SCREEN);
-    
+    SDL_FreeSurface(text_surface);
     return 0;
 }
