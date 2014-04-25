@@ -26,7 +26,7 @@ CFLAGS = -Wall `sdl-config --cflags`
 INCLUDES = 
 LDFLAGS = `sdl-config --libs`  -s
 RCFLAGS = 
-LDLIBS = $(T_LDLIBS) -lSDL -lSDL_ttf -lSDL_mixer -lSDL_image  -lstdc++
+LDLIBS = $(T_LDLIBS) -lSDL -lSDL_ttf -lSDL_mixer -lSDL_image -lSDL_gfx  -lstdc++
 
 LINK_exe = gcc -o $@ $^ $(LDFLAGS) $(LDLIBS)
 LINK_con = gcc -o $@ $^ $(LDFLAGS) $(LDLIBS)
